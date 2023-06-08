@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    padding: 5px 8px;
+    background: rgba(36, 36, 232, 0.525);
+    overflow: hidden;
+}
+.container-fluid{
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.notesappname{
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+}
+/*search bar*/
+.d-flex{
+    background-color: rgb(114, 1, 226);
+    width: 335px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.d-flex input{
+    flex: 1;
+    padding-left: 10px;
+}
+.container{
+    overflow: hidden;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-floating{
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    margin: 20px 5px 10px 5px;
+    text-align: center;
+    font-size: 23px;
+}
+.form-control{
+    width: 70%;
+    height: 30vh;
+    padding: 5px;
+}
+.btnnote{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+}
+#addBtn{
+    padding: 10px 25px;
+    background: transparent;
+    outline: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#addBtn:hover{
+    background-color: rgb(50, 50, 210);
+    color: #fff;
+}
+.noteCard{
+    border: 1px solid #000;
+    margin: 10px 20px;
+}
+.card-title{
+    border-bottom: 1px solid #000;
+}
+.card-text{
+    margin: 10px 5px;
+}
+.delbtn{
+    padding: 5px 10px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.delbtn:hover{
+    color: #fff;
+    background: orangered;
+    border: 1px solid #fff;
+}
+.h3yournote{
+    font-size: 23px;
+    margin: 5px;
+}
+
